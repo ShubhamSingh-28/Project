@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight:bold;
+    color: white;
+}
+body{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    background-color: #2c2c2c;
+}
+header{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid black ;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+ul li a{
+    padding: 0px 10px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+main{
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0px 150px;
+    flex-wrap: wrap;
+}
+.merc{
+    max-width: 500px;
+    height: auto;
+}
+.contentleft{
+    flex: 1;
+}
+.contentmid{
+    flex: 2;
+}
+.contentright{
+   flex: 1;
+}
+main h2{
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+}
+main p{
+    font-size: 14px;
+    font-weight: 200;
+    color: white;
+    line-height: 31.5px;
+    margin: 30px 0px;
+}
+.btn{
+padding: 15px 30px;
+color: black;
+background: white;
+outline: none;
+border: none;
+font-weight: 700;
+text-transform: uppercase;
+border-radius: 50px;
+}
+.btn:hover{
+    background-color: #2c2c2c;
+color: white;
+border: 2px solid white;
+}
+.logo{
+    border: 2px solid white;
+    padding: 10px 5px;
+}
+.signup{
+    background-color: white;
+    color: black;
+}
+.signup:hover{
+    background-color: black;
+    color: white;
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+    <div class="logo">Logo</div>
+    <nav>
+    <ul>
+        <li> <a href="#"> Home </a></li>
+        <li> <a href="#"> Offers </a></li>
+        <li> <a href="#"> Buy Now </a></li>
+        <li> <a href="#"> Sell Now </a></li>
+        <li> <a href="#"> About Us </a></li>
+        <li> <a href="#" class="signup"> Sign Up </a></li>
+    </ul>
+</nav>
+</header>
+<main>
+    <div class="contentleft">
+    <h2>Mercury</h2>
+        
+    </div>
+    <div class="contentmid">
+        <p>Mercury, the innermost planet of the solar system and the eighth in size and mass. Its closeness to the Sun and its smallness make it the most elusive of the planets visible to the unaided eye. Because its rising or setting is always within about two hours of the Sun’s, it is never observable when the sky is fully dark. Mercury is designated by the symbol ☿. <br>
+            Mercury is the closest planet to the Sun, at a distance of 57.91 million kilometers / 35.98 miles or 0.4 AU away. It takes sunlight 3.2 minutes to travel from the Sun to Mercury.
+        </p>
+        <button class="btn">Buy Now</button>
+    </div>
+    <div class="contentright">
+    <img src="About.png" class="merc">
+    </div>
+</main>
+</body>
+</html>
